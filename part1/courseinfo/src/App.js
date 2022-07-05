@@ -8,20 +8,30 @@ const App = () => {
   const exercises3 = 14
 
   return (
-    <div>
-      <h1>{course}</h1>
-      <p>
-        {part1} {exercises1}
-      </p>
-      <p>
-        {part2} {exercises2}
-      </p>
-      <p>
-        {part3} {exercises3}
-      </p>
-      <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
-    </div>
+    <>
+      <Header />
+      <Content />
+      <Content />
+      <Content />
+      <Total />
+    </>
   )
+}
+
+
+const Header = (props) => {
+
+
+}
+
+const Content = (props) => {
+
+
+}
+
+const Total = (props) => {
+
+
 }
 
 export default App
